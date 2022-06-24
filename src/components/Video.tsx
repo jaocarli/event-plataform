@@ -9,7 +9,6 @@ import {
 import { gql, useQuery } from '@apollo/client';
 
 import '@vime/core/themes/default.css';
-import { doTypesOverlap } from 'graphql';
 
 const GET_LESSON_BY_SLUG_QUERY = gql`
   query GetLessonBySlug($slug: String) {
